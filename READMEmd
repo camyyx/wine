@@ -1,0 +1,26 @@
+### Projet : 
+This project is a creation of an api allowing the prediction of a quality grade for wines from data given by psychochimical tests.
+The purpose is to identify the level of a quality of a wine without the participation of a sommelier.
+
+### Installation: to work on this project you will need 
+
+* python 3 with the following libraries
+* numpy
+* seaborn
+* pandas
+* sklearn
+* joblib
+* uvicorn
+* fastapi
+* Jupyter(optional)
+* Docker
+* Docker-compose
+
+### Usage: 
+
+to understand better this project here is an explanation of it's content 
+
+* a notebook reading data from a csv file, analysing it and training 3 models with it. Two of those are exported (.plk files)
+* an api that expects posts. you can see requests examples in test.sh
+* a docker compose file that creates an container of the api and a database with a crud api
+* 
